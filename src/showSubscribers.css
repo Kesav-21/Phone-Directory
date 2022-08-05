@@ -1,0 +1,29 @@
+.add-btn{
+    background: green;
+    color:white;
+}
+.detail-container{
+    display: grid;
+    grid-template-columns: 40% 30% auto;
+    margin-bottom: 10px;
+}
+.heading-container{
+    background-color: rgba(255,255,255,.8);
+    font-size:1.15rem;
+    word-wrap: break-word;
+    padding-right: 10px;
+}
+.name-heading,.phone-heading{
+    font-size: 1rem;
+    font-weight: 600;
+    color:#808080;
+    text-transform: uppercase;
+}
+.dlt-btn{
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+    padding:5px;
+    outline: none;
+    cursor:pointer;
+}
