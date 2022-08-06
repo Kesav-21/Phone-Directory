@@ -3,7 +3,7 @@ import Header from "./Header";
 import './showSubscribers.css';
 import {Link} from 'react-router-dom';
 
-class showSubscribers extends Component {
+class ShowSubscribers extends Component {
   onDeletedClick=(subscriberId)=>{
     this.props.deleteSubscriberHandler(subscriberId)
   }
@@ -18,7 +18,7 @@ class showSubscribers extends Component {
       <span className="detail-item phone-heading">Phone Number</span>
      </div>
       {
-        this.props.subscriberList.map(sub =>{
+        this.props.subscribersList.map(sub =>{
           return <div key={sub.id} className="detail-container">
             <span className="detail-item">{sub.name}</span>
             <span className="detail-item">{sub.phone}</span>
@@ -32,4 +32,4 @@ class showSubscribers extends Component {
 }
 }
 
-export default showSubscribers;
+export default ShowSubscribers;
