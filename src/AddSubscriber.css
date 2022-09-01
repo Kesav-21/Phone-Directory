@@ -1,0 +1,49 @@
+.component-body-container{
+    min-height: 200px;
+    max-width: 500px;
+    margin: 40px auto;
+    background: rgba( 255, 233, 0, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+h3{
+    text-align: center;
+}
+label{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin:5px;
+    line-height: 2rem;
+}
+.detail-cont{
+    color: blueviolet;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.6rem;
+}
+form{
+    padding-left: 20px;
+}
+input{
+    display: block;
+    border-color: blue;
+    width: 95%;
+    padding: 7px;
+    border-radius: 10px;
+}
+.btn-add{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.tbox{
+    background-color: aliceblue;
+    color:red;
+    border-radius: 10px;
+    padding: 4px;
+}

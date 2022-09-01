@@ -12,12 +12,12 @@ class PhoneDirectory extends Component{
                 {
                     id:1,
                     name:"Kesav",
-                    phone:9023198923
+                    phone:1111111111
                 },
                 {
                     id:2,
                     name:"Technow",
-                    phone:9201349012
+                    phone:2222222222
                 }
             ]
         }
