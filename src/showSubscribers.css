@@ -18,7 +18,7 @@
     text-align: center;
 }
 .dlt-btn{
-    width: 180px;
+    width: 100%;
     background-color: lightcoral;
     color: white;
     border-radius: 10px;
@@ -38,3 +38,9 @@ table,td{
 td:nth-child(even){background-color: lightgreen;}
 td:nth-child(odd){background-color: lightblue;}
 td:hover {background-color: #ddd;}
+
+.add-opt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

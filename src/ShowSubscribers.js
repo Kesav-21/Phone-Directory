@@ -13,10 +13,12 @@ class ShowSubscribers extends Component {
     <div>
     <Header heading="Phone Directory"/>
      <div className="container">
-      <span >Click the Add Button to add new contact!</span>
+      <section class="add-opt">
+      <span >Click the Add Button to for new contact!</span>
       <Link to='/add'>
         <button className="add-btn">ADD</button>
         </Link>
+        </section>
      
      <div className="detail-container heading-container">
       <span className="detail-item name-heading">Name</span>
